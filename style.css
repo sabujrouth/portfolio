@@ -7,6 +7,7 @@
 
 body {
     color: #ededed;
+    background: #081b29;
 }
 
 .header {
@@ -15,7 +16,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10px;
-    background: transparent;
+    background: #051129;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,7 +55,7 @@ body {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(./img/codioful.jpg) no-repeat;
+    background: transparent;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -159,6 +160,7 @@ body {
     height: auto;
     width: 100%;
     border-radius: 8px;
+    margin-left: 80px;
 }
 
 .about-text h2 {
@@ -167,6 +169,21 @@ body {
 
 .about-text h2 span {
     color: #0ef;
+}
+
+.about-text h4 {
+    font-size: 29px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+
+.about-text p {
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
 }
 
 
