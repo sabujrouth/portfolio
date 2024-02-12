@@ -184,6 +184,7 @@ body {
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 4rem;
+    margin-right: 60px;
 }
 
 #services {
@@ -202,13 +203,14 @@ body {
     font-size: 60px;
     padding-bottom: 70px;
 }
+
 .container {
     padding: 90px;
 }
 
 .services-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -216,6 +218,17 @@ body {
 .services-list div {
     background-color: transparent;
     padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s transform 0.5s;
+    box-shadow: 1px 1px 20px #3e10e2;
+}
+
+.services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
 }
 
 
