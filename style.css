@@ -15,7 +15,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10px;
+    padding: 20px 80px;
     background: #051129;
     display: flex;
     justify-content: space-between;
@@ -139,7 +139,7 @@ body {
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 5px;
+    box-shadow: 0 0 5px #0ef;   
     animation-delay: calc(.2s * var(--1));
 }
 
@@ -157,12 +157,11 @@ body {
 }
 
 .about-img img {
-    padding-bottom: 20%;
-    max-width: 360px;
+    max-width: 450px;
     height: auto;
     width: 100%;
-    border-radius: 8px;
-    margin-left: 120px;
+    border-radius: 0;
+    margin-left: 150px;
 }
 
 .about-text h2 {
@@ -186,7 +185,7 @@ body {
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 4rem;
-    margin-right: 60px;
+    margin-right: 85px;
 }
 
 #services {
@@ -259,17 +258,18 @@ body {
     font-weight: 600;
     opacity: 0;
     animation: slideTop 1s ease forwards;
-    animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef,
-        0 0 25px #0ef;
+    animation-delay: .5s;
+    box-shadow: 0 0 5px #0ef;
 }
 
 .read:hover {
-    background: #0ef;
-    color: #051129;
     box-shadow: 0 0 5px #0ef,
         0 0 25px #0ef, 0 0 50px #0ef,
         0 0 100px #0ef, 0 0 200px #0ef;
+}
+
+.services-list div:hover {
+    transform: translateY(-10px);
 }
 
 
