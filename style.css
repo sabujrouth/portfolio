@@ -290,6 +290,25 @@ section {
     margin-bottom: 50px;
 }
 
+.bar {
+    font-size: 23px;
+}
+
+.Technical-bars .bars {
+    margin-top: 40px 0;
+}
+
+.Technical-bars .bars:first-child {
+    margin-top: 0;
+}
+
+.Technical-bars .bars:last-child {
+    margin-bottom: 0;
+}
+
+.Technical-bars .bars .info {
+    margin-bottom: 5px;
+}
 
 
 @keyframes slideRight {
