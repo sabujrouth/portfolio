@@ -294,23 +294,23 @@ section {
     font-size: 23px;
 }
 
-.Technical-bars .bars {
+.Technical-bars .bar {
     margin-top: 40px 0;
 }
 
-.Technical-bars .bars:first-child {
+.Technical-bars .bar:first-child {
     margin-top: 0;
 }
 
-.Technical-bars .bars:last-child {
+.Technical-bars .bar:last-child {
     margin-bottom: 0;
 }
 
-.Technical-bars .bars .info {
+.Technical-bars .bar .info {
     margin-bottom: 5px;
 }
 
-.Technical-bars .bars .info span {
+.Technical-bars .bar .info span {
     font-size: 17px;
     font-weight: 500;
     animation: showText 0.5s 1s linear forwards;
@@ -365,6 +365,25 @@ section {
 .progress-line.python span {
     width: 50%;
 }
+
+.progress-line span::after {
+    position: absolute;
+    padding: 1px 8px;
+    background-color: black;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes slideRight {
     0% {
