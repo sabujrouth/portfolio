@@ -328,6 +328,8 @@ section {
     transform-origin: left;
 }
 
+
+
 @keyframes animate {
     100% {
         transform: scaleX(1);
@@ -342,6 +344,26 @@ section {
     animation: animate 1s 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
     transform: scaleX(0);
     transform-origin: left;
+}
+
+.progress-line.html span {
+    width: 90%;
+}
+
+.progress-line.css span {
+    width: 60%;
+}
+
+.progress-line.javascript span {
+    width: 70%;
+}
+
+.progress-line.tailwind-css span {
+    width: 80%;
+}
+
+.progress-line.python span {
+    width: 50%;
 }
 
 @keyframes slideRight {
