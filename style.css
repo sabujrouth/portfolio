@@ -295,7 +295,7 @@ section {
 }
 
 .Technical-bars .bar {
-    margin-top: 40px 0;
+    margin-top: 40px;
 }
 
 .Technical-bars .bar:first-child {
@@ -314,121 +314,120 @@ section {
     font-size: 17px;
     font-weight: 500;
     animation: showText 0.5s 1s linear forwards;
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 .Technical-bars .bar .progress-line {
     position: relative;
     border-radius: 10px;
     width: 100%;
-    height: 5px;
+    height: 8px;
     background-color: #000000;
     animation: animate 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
-    transform: scaleX(0);
+    transform: scaleX(1);
     transform-origin: left;
 }
-
-
 
 @keyframes animate {
-    100% {
-        transform: scaleX(1);
-    }
-}
-
-.Technical-bars .bar .progress-line span {
-    height: 100%;
-    background-color: #0ef;
-    position: absolute;
-    border-radius: 10px;
-    animation: animate 1s 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
-    transform: scaleX(0);
-    transform-origin: left;
-}
-
-.progress-line.html span {
-    width: 90%;
-}
-
-.progress-line.css span {
-    width: 60%;
-}
-
-.progress-line.javascript span {
-    width: 70%;
-}
-
-.progress-line.tailwind-css span {
-    width: 80%;
-}
-
-.progress-line.python span {
-    width: 50%;
-}
-
-.progress-line span::after {
-    position: absolute;
-    padding: 1px 8px;
-    background-color: black;
-    color: #fff;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-@keyframes slideRight {
-    0% {
-        transform: translateX(-100px);
-        opacity: 0;
+        100% {
+            transform: scaleX(1);
+        }
     }
 
-    100% {
-        transform: translateX(0px);
-        opacity: 1;
-    }
-}
 
-@keyframes slideLeft {
-    0% {
-        transform: translateX(100px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0px);
-        opacity: 1;
-    }
-}
-
-@keyframes slideTop {
-    0% {
-        transform: translateY(100px);
-        opacity: 0;
+    .Technical-bars .bar .progress-line span {
+        height: 100%;
+        background-color: #0ef;
+        position: absolute;
+        border-radius: 10px;
+        animation: animate 1s 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
+        transform: scaleX();
+        transform-origin: left;
     }
 
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
-    }
-}
-
-@keyframes slideBottom {
-    0% {
-        transform: translateY(-100px);
-        opacity: 0;
+    .progress-line.html span {
+        width: 90%;
     }
 
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
+    .progress-line.CSS span {
+        width: 60%;
     }
-}
+
+    .progress-line.JavaScript span {
+        width: 70%;
+    }
+
+    .progress-line.tailwind-css span {
+        width: 80%;
+    }
+
+    .progress-line.python span {
+        width: 50%;
+    }
+
+    .progress-line span::after {
+        position: absolute;
+        padding: 1px 8px;
+        background-color: black;
+        color: #fff;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @keyframes slideRight {
+        0% {
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideLeft {
+        0% {
+            transform: translateX(100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideTop {
+        0% {
+            transform: translateY(100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideBottom {
+        0% {
+            transform: translateY(-100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
