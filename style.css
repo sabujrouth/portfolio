@@ -382,18 +382,22 @@ section {
     content: "90%";
 
 }
+
 .progress-line.CSS span::after {
     content: "90%";
 
 }
+
 .progress-line.JavaScript span::after {
     content: "90%";
 
 }
+
 .progress-line.tailwind-css span::after {
     content: "90%";
 
 }
+
 .progress-line.python span::after {
     content: "90%";
 
@@ -418,6 +422,14 @@ section {
     100% {
         opacity: 1;
     }
+}
+
+.radial-bars {
+    width: 100%;
+    display: flex;
+    height: 170px;
+    margin-bottom: 10px;
+    position: relative;
 }
 
 
