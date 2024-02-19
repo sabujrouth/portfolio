@@ -364,6 +364,9 @@ section {
 .progress-line.python span {
     width: 50%;
 }
+.progress-line.react span {
+    width: 50%;
+}
 
 .progress-line span::after {
     position: absolute;
@@ -402,6 +405,10 @@ section {
     content: "90%";
 
 }
+.progress-line.react span::after {
+    content: "90%";
+
+}
 
 .progress-line span::before {
     content: "";
@@ -433,7 +440,7 @@ section {
 }
 
 .radial-bars .radial-bar {
-    width: 50%;
+    width: 50%; 
     height: 170px;
     margin-bottom: 10px;
     position: relative;
