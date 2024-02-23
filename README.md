@@ -50,10 +50,10 @@ I am continuously learning and expanding my skill set to stay updated with the l
 ## Contact Me
 Have a project in mind or just want to connect? Feel free to reach out to me:
 
-- **Email:** [your.iamsabujrouth@gmail.com](mailto:iamsabujrouth@gmail.com)
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/sabuj-routh/)
-- **GitHub:** [Your GitHub Profile](https://github.com/sabujrouth)
-- **Portfolio Website:** [Your Portfolio Website](https://sabujrouth.blogspot.com/)
+- **Email:** [iamsabujrouth@gmail.com](mailto:iamsabujrouth@gmail.com)
+- **LinkedIn:** [Sabuj Routh](https://www.linkedin.com/in/sabuj-routh/)
+- **GitHub:** [Sabuj Routh](https://github.com/sabujrouth)
+- **Portfolio Website:** [sabujrouth.blogspot.com](https://sabujrouth.blogspot.com/)
 
 Let's collaborate and build something amazing together!
 
