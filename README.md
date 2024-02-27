@@ -13,27 +13,6 @@ Welcome to my personal portfolio! This repository showcases my skills, projects,
 
 I am a passionate web developer with experience in front-end and back-end development. I love creating interactive and visually appealing websites and applications that provide great user experiences. My journey in web development started several years ago, and I have since honed my skills through various projects and collaborations.
 
-<!-- ## Projects
-
-Here are some of the projects I have worked on:
-
-1. **Project Name 1**
-   - Description: Brief description of the project.
-   - Technologies Used: HTML, CSS, JavaScript, etc.
-   - [Link to Project]() (if applicable)
-
-2. **Project Name 2**
-   - Description: Brief description of the project.
-   - Technologies Used: HTML, CSS, JavaScript, etc.
-   - [Link to Project](#) (if applicable)
-
-3. **Project Name 3**
-   - Description: Brief description of the project.
-   - Technologies Used: HTML, CSS, JavaScript, etc.
-   - [Link to Project](#) (if applicable)
-
-Feel free to explore more projects on my [GitHub profile](#)! -->
-
 ## Skills
 
 Here are some of the key skills I possess as a web developer:
