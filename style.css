@@ -737,9 +737,8 @@ section {
 }
 
 .contact-icons i:hover {
-    background-color: #0ef;
-    color: rgb(18, 5, 160);
-    box-shadow: 0 0 20px;
+    background: #0ef;
+    color: black;
 }
 
 
