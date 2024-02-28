@@ -154,6 +154,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 1.5rem;
+    padding: 90px;
 }
 
 .about-img img {
@@ -203,6 +204,7 @@ body {
     text-align: center;
     font-size: 60px;
     padding-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .container {
