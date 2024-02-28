@@ -742,6 +742,27 @@ section {
     box-shadow: 0 0 20px #0ef;
 }
 
+.contact-form {
+    position: relative;
+}
+
+.contact-form form input,form textarea {
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 18px;
+    background: #555557;
+    color: #030303;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 220px;
+}
 
 
 
