@@ -273,17 +273,19 @@ body {
     transform: translateY(-10px);
 }
 
-section {
+ .display-type {
     display: flex;
     flex-wrap: wrap;
-}
-
+ }
 .container1 {
     width: 600px;
     height: 500px;
     padding: 75px 90px;
     margin-left: 120px;
 }
+
+
+
 
 .heading1 {
     text-align: center;
@@ -448,7 +450,7 @@ section {
 .radial-bars .radial-bar {
     width: 50%;
     height: 170px;
-    margin-bottom: 10px;
+    margin-bottom: 80px;
     position: relative;
 }
 
