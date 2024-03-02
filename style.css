@@ -62,6 +62,7 @@ body {
     display: flex;
     align-items: center;
     padding: 70px 10% 0;
+    padding-bottom: 80px;
 }
 
 .home-content {
@@ -166,6 +167,7 @@ body {
 }
 
 .about-text h2 {
+    padding-top: 70px;
     font-size: 60px;
     text-align: center;
 }
